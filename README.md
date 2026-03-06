@@ -71,3 +71,23 @@ react-learning
 
 Each folder = one React topic.
 
+
+## First trick for static pages
+
+If you see:
+
+```
+export default
+```
+
+👉 import **without `{}`**
+
+If you see:
+
+```
+export function Something
+```
+
+👉 import **with `{}`**
+
+---
