@@ -9,10 +9,10 @@ createRoot(document.getElementById('root')).render(
     <p>This is a paragraph for un-order list</p>
   
     <ul>
-      <li>Fish</li>
+      <li>Birds</li>
       <li>Crustaceans</li>
-      <li>Wolf</li>
-      <li>Horse</li>
+      <li>Amphibians</li>
+      <li>Fish</li>
     </ul>
 
     <h2>The things You need to do after wake up</h2>
