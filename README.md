@@ -2,19 +2,7 @@
 for learning react
 
 ## Installation
-Yes 👍
-
-```bash
-npm create vite@latest 01-jsx
-```
-
-This command **creates a new React project using Vite**.
-
-But there is one more step — the CLI will ask you which framework you want.
-
----
-
-## What happens after you run the command
+Run this cmd
 
 ```bash
 npm create vite@latest <project_name>
@@ -69,7 +57,7 @@ http://localhost:5173
 ```
 
 ---
-
+# The Idea of folder
 ✅ Idea of a learning folder is perfect. Example:
 
 ```
