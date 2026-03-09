@@ -1,11 +1,15 @@
-// import { StrictMode } from 'react'
+import { createElement } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-// import App from './App.jsx'
 
+const header = createElement('h1', {className: 'header'}, 'Hello from createElement')
+const header2 = <h1>Hello from JSX</h1>
+console.log(header2)
 createRoot(document.getElementById('root')).render(
   <> {/* this line make code work in multiline */}
-    <h1>Hello React</h1>
+    {/* <h1>Hello React</h1> */}
+    {header}
+    {header2}
     <p>This is a paragraph for un-order list</p>
   
     <ul>
